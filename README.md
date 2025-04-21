@@ -19,3 +19,4 @@ Install the necessary libraries using the following command:
 ```bash
 pip install streamlit opencv-python ultralytics numpy
 
+Getting Started
