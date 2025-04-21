@@ -1,6 +1,6 @@
-# Smart Car Detection with YOLOv8
+# Smart Car Detection with YOLOv11
 
-The **Smart Car Detection** application enables efficient and accurate car detection in both images and videos using the advanced **YOLOv8** model. With an intuitive interface built with **Streamlit**, this tool provides a seamless experience for car detection in real-time.
+The **Smart Car Detection** application enables efficient and accurate car detection in both images and videos using the advanced **YOLOv11** model. With an intuitive interface built with **Streamlit**, this tool provides a seamless experience for car detection in real-time.
 
 ## Features
 - **Car Detection for Images**: Upload an image to detect cars automatically.
@@ -47,10 +47,8 @@ streamlit run app.py
   
 - **Efficient Results**: After processing, the application allows users to download the detected output for further use.
 
-## Powered by YOLOv8
+## Powered by YOLOv11
 
-## Powered by YOLOv8
-
-This application uses **YOLOv8**, a powerful and efficient model for detecting objects in images and videos. YOLOv8 ensures quick and accurate car detection, making the app reliable for real-time use.
+This application uses **YOLOv11**, a powerful and efficient model for detecting objects in images and videos. YOLOv8 ensures quick and accurate car detection, making the app reliable for real-time use.
 
 
