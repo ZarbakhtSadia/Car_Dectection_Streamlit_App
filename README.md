@@ -21,8 +21,25 @@ pip install streamlit opencv-python ultralytics numpy
 ```
 
 ## Getting Started
-### 1.Clone the repository:
+### 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/car-detection-yolo.git
 cd car-detection-yolo
 ```
+
+### 2. Run the Streamlit application:
+```bash
+streamlit run app.py
+```
+4. **Open in your browser**:
+    Once the app starts, open your browser and go to the following URL (usually `http://localhost:8501`):
+    ```
+    http://localhost:8501
+    ```
+
+5. **Choose the Input Type**:
+    - **Image**: Upload an image file (JPG, JPEG, PNG) to detect cars.
+    - **Video**: Upload a video file (MP4, AVI, MOV) to process frame-by-frame.
+
+6. **View Results**:
+    The application will display the car detection results. After processing, you can download the detected image or video.
