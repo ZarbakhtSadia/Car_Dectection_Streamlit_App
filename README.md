@@ -34,8 +34,8 @@ streamlit run app.py
 **3.** Once the app starts, open your browser and go to the following URL (usually `http://localhost:8501`).
 
 **4.** **Choose the Input Type**:
-    - **Image**: Upload an image file (JPG, JPEG, PNG) to detect cars.
-    - **Video**: Upload a video file (MP4, AVI, MOV) to process frame-by-frame.
+- **Image**: Upload an image file (JPG, JPEG, PNG) to detect cars.
+- **Video**: Upload a video file (MP4, AVI, MOV) to process frame-by-frame.
 
 **5.** The application will display the detection results and allow you to download the processed medi
 
