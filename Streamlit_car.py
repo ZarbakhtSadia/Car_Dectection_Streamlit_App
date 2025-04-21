@@ -7,7 +7,7 @@ import os
 import time
 
 # Load YOLO model
-model = YOLO('model_- 21 april 2025 2_08.pt')
+model = YOLO('model.pt')
 
 # ----------------------- Page Config -----------------------
 st.set_page_config(page_title="Smart Car Detection", layout="centered")
