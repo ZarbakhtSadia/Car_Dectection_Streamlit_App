@@ -11,7 +11,7 @@ The **Smart Car Detection** application enables efficient and accurate car detec
 To run the application, you will need:
 - Python 3.x
 - Streamlit
-- YOLOv8 model (for object detection)
+- YOLOv11 model (for object detection)
 - OpenCV
 - Numpy
 
@@ -41,7 +41,7 @@ streamlit run app.py
 
 ## How It Works
 
-- **Image Processing**: The YOLOv8 model quickly detects cars in the uploaded image, highlighting the vehicles in real-time.
+- **Image Processing**: The YOLOv11 model quickly detects cars in the uploaded image, highlighting the vehicles in real-time.
   
 - **Video Processing**: For videos, the app processes each frame, running car detection on them and displaying the results as the video plays.
   
