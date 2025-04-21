@@ -5,6 +5,17 @@ import numpy as np
 import tempfile
 import os
 import time
+from torch.serialization import add_safe_globals
+from ultralytics.nn.tasks import DetectionModel
+
+add_safe_globals([DetectionModel])
+
+# then load as usual
+import torch
+ckpt = torch.load("model.pt", weights_only=True)
+
+add_safe_globals([DetectionModel])
+
 
 # Load YOLO model
 model = YOLO("model.pt")  # Tell Ultralytics to fully load the model
