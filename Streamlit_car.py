@@ -7,7 +7,8 @@ import os
 import time
 
 # Load YOLO model
-model = YOLO('model.pt')
+torch.serialization.weights_only = False  # Optional in case you use torch.load directly
+model = YOLO("model.pt", weights_only=False)  # Tell Ultralytics to fully load the model
 
 # ----------------------- Page Config -----------------------
 st.set_page_config(page_title="Smart Car Detection", layout="centered")
