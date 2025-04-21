@@ -18,5 +18,11 @@ To run the application, you will need:
 Install the necessary libraries using the following command:
 ```bash
 pip install streamlit opencv-python ultralytics numpy
+```
 
-Getting Started
+## Getting Started
+### 1.Clone the repository:
+```bash
+git clone https://github.com/your-username/car-detection-yolo.git
+cd car-detection-yolo
+```
