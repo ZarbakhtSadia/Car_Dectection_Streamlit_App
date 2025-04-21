@@ -49,5 +49,8 @@ streamlit run app.py
 
 ## Powered by YOLOv8
 
-This application leverages **YOLOv8**, a state-of-the-art object detection model known for its high performance in real-time detection tasks. YOLOv8 ensures fast, accurate, and reliable car detection.
+## Powered by YOLOv8
+
+This application uses **YOLOv8**, a powerful and efficient model for detecting objects in images and videos. YOLOv8 ensures quick and accurate car detection, making the app reliable for real-time use.
+
 
