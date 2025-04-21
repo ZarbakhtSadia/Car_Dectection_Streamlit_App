@@ -7,7 +7,7 @@ import os
 import time
 
 # Load YOLO model
-model = YOLO("model.pt", weights_only=False)  # Tell Ultralytics to fully load the model
+model = YOLO("model.pt")  # Tell Ultralytics to fully load the model
 
 # ----------------------- Page Config -----------------------
 st.set_page_config(page_title="Smart Car Detection", layout="centered")
