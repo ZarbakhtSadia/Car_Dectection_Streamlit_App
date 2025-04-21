@@ -7,7 +7,6 @@ import os
 import time
 
 # Load YOLO model
-torch.serialization.weights_only = False  # Optional in case you use torch.load directly
 model = YOLO("model.pt", weights_only=False)  # Tell Ultralytics to fully load the model
 
 # ----------------------- Page Config -----------------------
